@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}
+registration page 
+{% endblock %}
+
+{% block content %}
+	<form method="post">
+		<input type="text" name="Login" placeholder="Задайте свій логін"> 
+		<input type="text" name="Email" placeholder="Задайте свій емейл"> 
+        <input type="text" name="Password" placeholder="Задайте свій пароль"> 
+		<input type="text" name="Password confirmation" placeholder="Підтвердіть свій пароль">
+		<button type="submit">Send</button>
+    </form>
+{% endblock %}

@@ -1,0 +1,15 @@
+<html lang="en">
+    <head>
+        <title>{% block title %}{% endblock %}</title>
+    </head>
+    <body>
+        <div class = "side-menu">
+            <a href="/registration/">Регистрация</a>
+            <a href="/authorization/">Авторизация</a>
+            <a href="/">Головна</a>
+        </div>
+        {% block content %}
+        
+        {% endblock %}
+    </body>
+</html>
